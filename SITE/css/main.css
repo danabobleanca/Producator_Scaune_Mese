@@ -1,0 +1,407 @@
+.container-fluid{
+	background-image:url(../imagini/white_texture.jpg);
+	font-family: 'Unlock', cursive;
+
+}
+
+.contact_social{
+	color:#f9c700;
+	background-color:black;
+	padding:8px;
+	text-align:right;
+	font-size:13px;
+}
+
+.telefon{
+	float:left;
+}
+
+#header{
+	padding:30px 0px;
+	
+	
+}
+#header img{
+	margin:0px auto;
+	text-align:center;
+}
+
+.logo1{
+	text-align:center;
+}
+
+.navbar {
+	background-color:#03060a !important;
+	
+}
+.navbar-nav{
+	float:none !important;
+	text-align:center !important;
+}
+.navbar-nav li{
+	font-size:22px;
+	float:none !important;
+	display:inline-block !important;
+	
+}
+
+.navbar-nav li a{
+	color:white !important;
+	font-family: 'Unlock', cursive, sans-serif !important;
+	
+}
+
+.navbar-nav li:hover{
+	background-color:#f9c700;
+}
+
+.navbar-nav li:hover a{
+	color:#060d14 !important;
+}
+
+.continut_imagini_productie{
+	text-align:center;
+	padding-top:30px;
+}
+
+
+.productie, .despre_noi_home, .produse_realizate_text{
+
+	font-size:35px;
+	font-family: 'Kaushan Script', cursive;
+	font-weight:bold;
+	color:#060d14; 	
+	background-image:url(../imagini/bg_text.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding:20px 50px;
+	margin:30px 0px;
+}
+
+.img_productie{
+	text-align:center;
+}
+.productie img,  .despre_noi_home img, .produse_realizate_text img{
+	margin:0px auto;
+	text-align:center;
+}
+.img_productie img {
+	padding:10px 50px;
+	transform:transition;
+	width:400px;
+	margin:0px auto;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 10px solid white;
+	border-bottom: 10px solid white;
+	height:100%;
+}
+
+.img_productie img:hover {
+	border-top:10px solid #f9c700;
+	border-bottom:10px solid #f9c700;
+	transition:0.8s;
+
+}
+.continut_despre_home{
+	text-align:center;
+}
+
+
+.home_oferim{
+	background-image:url(../imagini/oferim12.jpg);
+	background-size:cover;
+	color:white;
+	font-size:24px;
+	box-sizing:border-box;
+	
+}
+.container_oferim{
+	background-color:black;
+	opacity:0.8;
+}
+
+.oferim{
+	padding:150px 0px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	box-sizing:border-box;
+	transform:transition;
+	opacity:1;
+	background-color:black;
+}
+.oferim:hover{
+	color:#f9c700;
+	transition:0.5s;
+	opacity:0.6;
+	background-color:#191919;
+	
+}
+
+.oferim1, .oferim2, .oferim3{
+	border-right:1px solid white;
+}
+.oferim img{
+	height:60px;
+	width:60px;
+	margin:0px auto;
+}
+
+.detalii_despre_text{
+	margin:20px 0px;
+}
+.detalii_despre{
+	padding:50px 65px 0px 65px;
+	font-size:14px;
+	color:black;
+
+}
+.text_despre_noi{
+	text-align:right;
+	
+}
+.text_detalii_despre{
+	text-align:left;
+
+}
+.text_despre_noi h2, .text_detalii_despre h2{
+	font-family: 'Kaushan Script', cursive;
+	font-weight:bold;
+	color:#060d14; 
+}
+.text_despre_noi h2 span, .text_detalii_despre h2 span{
+	color:#f9c700;
+}
+
+.btn{
+	background-color:#f9c700 !important;
+	border:0px !important;
+	margin-top:20px;
+}
+
+.btn a{
+	text-decoration:none;
+	color:white !important;
+	font-size:16px;
+	
+}
+.detalii_despre_text img{
+	border-left:2px solid white;
+	border-right:2px solid white;
+}
+
+.produse_realizate_home{
+	text-align:center;
+	padding-top:30px;
+	margin-bottom:50px;
+}
+
+.produse_realizate1 img{
+	border:20px double white;
+	box-shadow:10px 15px 10px black;
+
+}
+
+.produse_realizate1 img:hover{
+	opacity:0.6;
+	background-color:black ;
+}
+
+
+	/*			CONTINUT 			*/
+.text_pagina_despre{
+		padding:30px 0px;
+	}
+	
+.pagina_despre p{
+		font-size:14px;
+	}
+	
+.text_pagina_despre h3{
+	font-family: 'Kaushan Script', cursive;
+	font-weight:bold;
+	color:#060d14; 
+	font-size:32px;
+	text-align:center;
+	}
+	
+.text_pagina h3{
+	font-weight:bold;
+	font-size:32px;
+	text-align:center;
+	color:white;
+}
+.text_pagina_despre span{
+	color:#f9c700;
+	}
+	
+#colaborari{
+	background-color:#0c0c0c;
+
+}
+/*				PRODUSE			*/
+
+.imagine_produse img{
+	width:100%;
+	
+}
+
+.pagina_produse_container{
+	text-align:center;
+	margin:20px 0px;
+	
+}
+.pagina_produse{
+	text-align:center;
+	font-size:16px;
+	padding:50px;
+}
+
+.pagina_produse1 img{
+	width:180px;
+	margin:0px auto;
+	margin-bottom:0px;
+}
+.pagina_produse h2{
+	margin:30px 0px;
+}
+.produse_cas1 img{
+	width:100%;
+	box-shadow:10px 10px 20px black;
+}
+.produse_cas2 span{
+	font-weight:bold;
+	color:#f9c700;
+	font-size:19px;
+}
+
+.produse_cas3{
+	border-right:1px solid black;
+}
+.servicii_oferite{
+	background-image:url(../imagini/set3.jpg);
+	background-size:cover;
+	color:white;
+	font-size:15px;
+	text-align:center;
+	padding:50px;
+	margin-bottom:30px;
+}
+
+.pagina_produse1{
+	padding:20px;
+	background-color:#262626;
+	opacity:0.6;
+}
+.servicii_oferite h3{
+	
+	margin-bottom:25px;
+	font-size:26px;
+	border-bottom:3px dashed black;
+	padding-bottom:30px;
+}
+
+.servicii_oferite p{
+	padding:4px 4px;
+}
+
+.servicii_oferite span{
+	color:#f9c700;
+	font-size:20px;
+}
+.servicii_oferite p{
+	background-color:black;
+	opacity:0.8;
+}
+
+/*			GALERIE			*/
+
+.pagina_galerie_imagini{
+	background-color:black;
+	margin:40px 0px;
+}
+.galerie{
+	height:300px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	color:white;
+}
+
+.galerie h3{
+	font-size:35px;
+	opacity:0.9;
+}
+.galerie2{
+	background-image:url(../imagini/galerie1.png);
+	background-size:cover;
+	border-left:1px solid white;
+	border-right:1px solid white;
+	background-color:black;
+}
+.galerie1{
+	background-image:url(../imagini/galerie2.png);
+	background-size:cover;
+}
+.galerie3{
+	background-image:url(../imagini/galerie3.png);
+	background-size:cover;
+}
+.galerie:hover{
+	opacity:0.6;
+}
+
+.galerie_scaune, .galerie_mese, .galerie_altele{
+	margin:10px 0px;
+	background-color:black;
+	padding:15px;
+	height:100%;
+}
+
+.galerie_scaune img, .galerie_mese img, .galerie_altele img{
+	margin:15px 0px;
+	border:15px solid transparent;
+	border-image:url(../imagini/wood_frame2.png) 2% round;
+}
+.pagina_galerie div img:hover{
+	opacity:0.7;
+}
+
+
+
+/*			contact_social		*/
+.pagina_contact{
+	margin:40px ;
+	background-image:url(../imagini/waves2.png);
+	background-size:contain;
+	background-image:url(../imagini/contact_bg.png);
+	background-position:center;
+	background-size:cover;
+	padding:30px 0px;
+}
+.text-contact{
+	background-color:white;
+	padding:20px;
+	border:5px double white;
+}
+.date-contact{
+	text-align:center;
+}
+
+.date-contact p{
+	background-image:url(../imagini/contact_design.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-size:19px;
+	color:white;
+	padding:15px;
+}
+.footer{
+	text-align:center;
+	background-color:#03060a;
+	padding:10px 0px;
+}
